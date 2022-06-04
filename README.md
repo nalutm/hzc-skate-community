@@ -19,6 +19,8 @@ A partir desse projeto treinei:
 
 O projeto deixa o desafio de realizar duas telas a partir do conhecimento adquirido durante o curso, atualmente estou nessa etapa.
 
+![imagem](./assets/images/desktop_layout.jpeg)
+
 ## Status do Projeto
 Em andamento
 
@@ -33,7 +35,7 @@ Você pode acessar o [código fonte do projeto](https://github.com/nalutm/hzc-sk
 [Nayara Luiza Tavares Moraes](https://github.com/nalutm)
 
 
-![imagem](./assets/images/desktop_layout.jpeg)
+
 
 
 
