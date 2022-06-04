@@ -68,7 +68,7 @@
   content: "\e90a";
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .side-menu {
     position: static;
     width: 200px;

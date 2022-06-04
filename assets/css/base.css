@@ -22,7 +22,7 @@ body {
   font-family: var(--text-font) , 'icones';
 }
 
-@media screen and (min-width: 1440px) /*para dispositivos que tenham tela, e uma largura mínima de 1440px*/{
+@media screen and (min-width: 1024px) /*para dispositivos que tenham tela, e uma largura mínima de 1440px*/{
   body {
     display: grid;
     grid-template-columns: auto 1fr;
