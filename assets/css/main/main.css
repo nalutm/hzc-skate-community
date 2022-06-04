@@ -86,6 +86,11 @@
   font-size: 24px;
 }
 
+.card__button--map::before {
+  content: "\e909";
+  font-size: 24px;
+}
+
 .card__profile--recent {
   grid-column: 2;
 }
@@ -132,6 +137,7 @@
 
   .card__title--secundary {
     height: 48px;
+    line-height: 24px;
   }
   
 
