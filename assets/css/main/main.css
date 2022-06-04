@@ -86,7 +86,7 @@
   grid-column: 2;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .main {
     display: grid;
     grid-template-columns: auto 1fr auto;
