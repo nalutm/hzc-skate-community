@@ -1,0 +1,72 @@
+.header {
+  align-items: center;
+  background: var(--background-header);
+  box-shadow: 0px 4px 4px var(--shadow);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.header__menu i::before {
+  content: "\e904";
+  font-size: 24px;
+}
+
+.header__logo {
+  width: 40px;
+}
+
+.header__profile {
+  display: none;
+}
+
+
+.header__notifications i::before {
+  content: "\e906";
+  font-size: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    background: var(--background);
+    column-gap: 32px;
+    display: grid;
+    height: 80px;
+    grid-template-columns: 1fr auto;
+    padding: 16px 60px;
+    box-sizing: border-box;
+  }
+
+  .header__menu, 
+  .header__logo {
+    display: none;
+  }
+
+  .header__profile {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 8px;
+    align-items: center;
+    justify-self: flex-end;
+    color: var( --grey);
+    padding: 8px 32px;
+    border-right: 1px solid var( --grey);
+  }
+
+  .header__profile::before {
+    content: "";
+    display: block; /*para determinar altura e largura*/
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/profile_2.png);
+    background-size: contain; /*para a imagem ficar contida dentro do tamanho*/
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .header__profile::after {
+    content: "\e90d";
+    color: var(--white);
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,133 @@
+.main {
+  padding: 24px 10px;
+  display: grid;
+  gap: 16px;
+}
+
+.main__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main__card {
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.main__card--highlight {
+  margin-bottom: 16px;
+}
+
+.card__img--desktop {
+  display: none;
+}
+
+.card__content {
+  background: var(--background-card);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 16px;
+  gap: 8px;
+  column-gap: 16px;
+}
+
+.card__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  grid-column: span 2;
+}
+
+.card__profile {
+  color: var(--grey);
+  font-size: .9rem;
+  grid-column: span 2;
+}  
+
+.card__info {
+  color: var(--grey);
+  display: flex;
+  align-items: center;
+  gap: 5px
+}
+
+.card__info--duration::before {
+  content: "\e90c";
+}
+
+.card__info--visualization::before {
+  content: "\e90f";
+}
+
+.card__button {
+  background: var(--button);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  justify-content: center;
+  justify-self: flex-end;
+  font-size: .9rem;
+  width: 40px;
+}
+
+.card__button--highlight {
+  gap: 8px;
+  width: 100%;
+  grid-column: span 2;
+}
+
+.card__button--play::before {
+  content: "\e90b";
+  font-size: 24px;
+}
+
+.card__profile--recent {
+  grid-column: 2;
+}
+
+@media screen and (min-width: 1440px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 32px;
+    padding: 16px 60px;
+    grid-template-areas: 
+    "main-title main-title main-title" 
+    "highlight-video highlight-video recent"
+    "videos-section videos-section videos-section"
+    "recent-products highlight-product highlight-product"
+    "products-section products-section products-section";
+  }
+
+  .main__title {
+    grid-area: main-title ;
+  }
+
+  .highlight-video {
+    grid-area: highlight-video;
+   }
+
+   .card__img--desktop {
+    display: block;
+  }
+
+  .card__img--mobile {
+    display: none;
+  }
+
+  .main__card--highlight {
+    margin-bottom: 0;
+  }
+
+  .card__button--highlight {
+    grid-column: auto;
+    padding: 16px 8px;
+  }
+
+  .card__title--secundary {
+    height: 48px;
+  }
+  
+
+}

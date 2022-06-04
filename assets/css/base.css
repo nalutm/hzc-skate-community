@@ -1,0 +1,30 @@
+:root {
+  --background-header: #15191c;
+  --background: #1d232a;
+  --background-menu: #15191C;
+  --background-card: #2C343A;
+  --white: #fff;
+  --grey: #95999C;
+  --shadow: rgba(0, 0, 0, 0.16);
+  --button: #0480DC;
+
+  --text-font : 'Open Sans', sans-serif;
+}
+
+@font-face {
+  font-family: 'icones';
+  src: url(../font/icones.ttf);
+}
+
+body {
+  background: var(--background);
+  color: var(--white);
+  font-family: var(--text-font) , 'icones';
+}
+
+@media screen and (min-width: 1440px) /*para dispositivos que tenham tela, e uma largura mínima de 1440px*/{
+  body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+}

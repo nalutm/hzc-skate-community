@@ -1,0 +1,105 @@
+.section {
+  display: grid;
+  gap: 16px;
+}
+
+.section__title {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.card__info--price::before {
+  content: "\e905";
+}
+
+.card__button--buy::before {
+  content: "\e901";
+  font-size: 24px;
+}
+
+.card--recents {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .section {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .section__title {
+    font-size: 26px;
+    grid-column: span 4;
+  }
+  
+  .card--recents {
+    background: var(--background-card);
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    row-gap: 24px;
+    width: 256px;
+    padding: 16px;
+    box-sizing: border-box;
+    align-self: flex-start;
+  }
+
+   .recent-videos {
+     grid-area: recent;
+   } 
+
+  .card--recents .card__title {
+    grid-column: auto;
+  }
+
+  .card__link {
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--button);
+    justify-self: flex-end;
+  }
+
+  .card__list {
+    display: grid;
+    row-gap: 16px;
+    grid-column: span 2;
+  }
+
+  .card__item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+  }
+
+  .card__item-thumbnail {
+    width: 32px;
+    grid-row: span 2;
+  }
+
+  .card__item-title {
+    font-size: .9rem;
+    line-height: 1.2rem;
+    font-weight: 700;
+  }
+
+  .card__profile {
+    color: var(--grey); 
+    font-size: .8rem;
+  }
+
+  .videos-section {
+    grid-area: videos-section;
+  }
+
+  .recent-products {
+    grid-area: recent-products;
+  }
+
+  .highlight-product {
+    grid-area: highlight-product;
+  }
+
+  .products-section {
+    grid-area: products-section;
+  }
+}
