@@ -29,7 +29,7 @@ Em andamento
 * CSS
 
 ## Acesso ao projeto
-Você pode acessar o [código fonte do projeto](https://github.com/nalutm/hzc-skate-community) ou [baixá-lo](https://github.com/nalutm/hzc-skate-community/archive/refs/heads/main.zip). Também pode acessar a [página para conferir o resultado final](https://aluraplus-nu-red.vercel.app/)
+Você pode acessar o [código fonte do projeto](https://github.com/nalutm/hzc-skate-community) ou [baixá-lo](https://github.com/nalutm/hzc-skate-community/archive/refs/heads/main.zip). Também pode acessar a [página para conferir o resultado final](https://hzc-skate-community.vercel.app/)
 
 ## Autora
 [Nayara Luiza Tavares Moraes](https://github.com/nalutm)
