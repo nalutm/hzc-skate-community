@@ -9,7 +9,7 @@
 * Autora
 
 ## Descrição do projeto
-O projeto Alura Plus foi desenvolvido a partir de um [protótipo figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=72%3A4665) disponibilizado em um dos [cursos da escola front-end da Alura](https://www.alura.com.br/escola-front-end). 
+O projeto HZC foi desenvolvido a partir de um [protótipo figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=72%3A4665) disponibilizado em um dos [cursos da escola front-end da Alura](https://www.alura.com.br/escola-front-end). 
 Dessa forma, pude primeiro fazer o meu código e em seguida revisá-lo assistindo as aulas do curso e reparando onde poderia melhorar.
 
 A partir desse projeto treinei: 
