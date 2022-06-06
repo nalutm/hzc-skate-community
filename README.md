@@ -21,6 +21,8 @@ O projeto deixa o desafio de realizar duas telas a partir do conhecimento adquir
 
 ![imagem](./assets/images/desktop_layout.jpeg)
 
+
+
 ## Status do Projeto
 Em andamento
 

@@ -1,0 +1,15 @@
+
+
+@media screen and (min-width: 1024px) {
+  .article__img:nth-child(8) {
+    min-height: 256px;
+    min-width: 448px;
+    grid-column: 1 / 2;
+  }
+
+  .article__img:nth-child(9) {
+    min-height: 256px;
+    min-width: 352px;
+    grid-column: 2 / 2;
+  }
+}

@@ -75,6 +75,11 @@
   width: 40px;
 }
 
+.card__button:hover {
+  background: var(--light-grey);
+  color: var(--button);
+}
+
 .card__button--highlight {
   gap: 8px;
   grid-column: span 2;
@@ -131,8 +136,9 @@
   }
 
   .card__button--highlight {
-    grid-column: auto;
     padding: 16px 8px;
+    grid-column: auto;
+    box-sizing: border-box;
   }
 
   .card__title--secundary {
