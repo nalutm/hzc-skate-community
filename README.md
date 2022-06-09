@@ -17,14 +17,12 @@ A partir desse projeto treinei:
 * desenvolver o código a partir de um protótipo;
 * posicionamento de elementos utilizando CSS Grid e Flexbox;
 
-O projeto deixa o desafio de realizar duas telas a partir do conhecimento adquirido durante o curso, atualmente estou nessa etapa.
+O projeto deixa o desafio de realizar duas telas a partir do conhecimento adquirido durante o curso.
 
 ![imagem](./assets/images/desktop_layout.jpeg)
 
-
-
 ## Status do Projeto
-Em andamento
+Finalizado
 
 ## Linguagens Utilizadas
 * HTML;
